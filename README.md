@@ -17,8 +17,8 @@ $client->login($username, $password);
 ```
 Работа с файлами:
 ```php
-$client->currentDirectory(); // Получить текущаю директорию
-$client->parentDirectory(); // Родительская директория
+$client->currentDirectory(); // Получить текущую директорию
+$client->parentDirectory(); // Получить родительскую директория
 $client->changeDirectory($dir); // Сменить директорию
 $client->createDirectory($dir); // Создать директорию
 $client->deleteDirectory($dir); // Удалить директорию
@@ -28,7 +28,7 @@ $client->deleteFile($fname); // Удалить файл
 $client->upload($fname); // Загрузить файл
 $client->download($fname, $to); // Скачать файл
 
-$client->rename($old, $new); // Переименовать файл
+$client->rename($old, $new); // Переименовать файл или директорию
 ```
 Пример использования:
 https://hub.develnext.org/project/SrtCjqnoXnjk
